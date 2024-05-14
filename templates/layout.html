@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet", href="{{url_for('static', filename="style.css")}}">
+        <link rel="stylesheet", href="{{url_for('static', filename='style.css')}}"/>
     <title>My Online CV</title>
 </head>
 
@@ -15,7 +15,10 @@
         <h1>Engr. Olorunfemi Ogunbanwo <i>MNSE</i></h1>
         <address>
             Email: olabowaleogunbanwo@gmail.com
-            <br />
+            <br/>
+                <img src ="{{url_for('static', filename = 'femi.jpg')}}" />
+
+            <br/>
             LinkedIn: <a href="https://www.linkedin.com/in/olabowale-ogunbanwo-47b45b257/">Profile</a>
         </address>
     </header>
